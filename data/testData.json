@@ -1,0 +1,34 @@
+[
+  {
+    "scenario": "Valid User",
+    "username": "bhushanyopmail",
+    "password": "Admin@123",
+    "email": "bhushan.yopmail.com",
+    "lastname": "yopmail"
+  },
+  {
+    "scenario": "Invalid User",
+    "username": "meetanshitester123",
+    "password": "Admin@123",
+    "email": "meetanshi.tester.com",
+    "lastname": "tester123"
+  },
+  {
+    "scenario": "Blank Fields",
+    "username": " ",
+    "password": " ",
+    "email": ""
+  },
+  {
+    "scenario": "Invalid Email",
+    "username": "bhushanyopmail",
+    "password": "Admin@123",
+    "email": "bhushan123.yopmail.com"
+  },
+  {
+    "scenario": "Invalid Password",
+    "username": "bhushanyopmail",
+    "password": "admin@123@@@",
+    "email": "bhushan.yopmail.com"
+  }
+]
