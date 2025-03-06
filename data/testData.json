@@ -1,34 +1,68 @@
 [
   {
-    "scenario": "Valid User",
+    "scenario": "Valid User for Login",
     "username": "bhushanyopmail",
     "password": "Admin@123",
     "email": "bhushan.yopmail.com",
     "lastname": "yopmail"
   },
   {
-    "scenario": "Invalid User",
+    "scenario": "Invalid User for Login",
     "username": "meetanshitester123",
     "password": "Admin@123",
     "email": "meetanshi.tester.com",
-    "lastname": "tester123"
+    "lastname": "tester123",
+    "message": "Error: Incorrect login or password provided."
   },
   {
-    "scenario": "Blank Fields",
+    "scenario": "Blank Fields for Login",
     "username": " ",
     "password": " ",
-    "email": ""
+    "email": "",
+    "message": "Error: Incorrect login or password provided."
   },
   {
-    "scenario": "Invalid Email",
+    "scenario": "Valid User for Forget Password",
     "username": "bhushanyopmail",
     "password": "Admin@123",
-    "email": "bhushan123.yopmail.com"
+    "email": "bhushan.yopmail.com",
+    "message": "Success: Password reset link has been sent to your e-mail address."
   },
   {
-    "scenario": "Invalid Password",
+    "scenario": "Invalid User for Forget Password",
     "username": "bhushanyopmail",
-    "password": "admin@123@@@",
-    "email": "bhushan.yopmail.com"
+    "password": "admin@123",
+    "email": "meetanshi.tester@yopmail.com",
+    "message": "Error: No records found matching information your provided, please check your information and try again!"
+  },
+  {
+    "scenario": "Blank Fields for Forget Password",
+    "username": " ",
+    "password": " ",
+    "email": "",
+    "message": "Error: The Email address was not provided or not found in our records, please try again!"
+  },
+  {
+    "scenario": "Valid User for Forget Login",
+    "username": "KiboGross",
+    "password": "Admin@123",
+    "email": "gitelahy@mailinator.com",
+    "lastname": "Britt",
+    "message": "Success: Your login name reminder has been sent to your e-mail address."
+  },
+  {
+    "scenario": "Invalid User for Forget Login",
+    "username": "KiboGross",
+    "password": "Admin@123",
+    "email": "gitelahy@mailinator.com",
+    "lastname": "Britt123",
+    "message": "Error: No records found matching information your provided, please check your information and try again!"
+  },
+  {
+    "scenario": "Blank Fields for Forget Login",
+    "username": " ",
+    "password": " ",
+    "email": "",
+    "message": "Error: The Email address was not provided or not found in our records, please try again!"
   }
 ]
